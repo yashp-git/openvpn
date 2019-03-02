@@ -1,9 +1,8 @@
 #!/bin/bash
-#
-# https://github.com/Nyr/openvpn-install
-#
-# Copyright (c) 2013 Nyr. Released under the MIT License.
-
+# 
+# https://github.com/yash2554/openvpn/
+# Copied from https://computingforgeeks.com/easy-way-to-install-and-configure-openvpn-server-on-ubuntu-18-04-ubuntu-16-04/ sources 
+# 
 
 # Detect Debian users running the script with "sh" instead of bash
 if readlink /proc/$$/exe | grep -q "dash"; then
